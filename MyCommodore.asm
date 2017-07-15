@@ -1,3 +1,5 @@
+; starting address is 52768 (run with SYS 52786 on emulator)
+
 @=$8000
 CLEAR   JSR     $e544
 
