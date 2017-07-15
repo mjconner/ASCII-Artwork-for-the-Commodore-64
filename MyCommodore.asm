@@ -477,8 +477,8 @@ CLEAR   JSR     $e544
         STA     $0506
         STX     $d906
 
-
 ; black belt
+
         LDX     #0
         LDA     #83
 
@@ -533,10 +533,6 @@ CLEAR   JSR     $e544
         STA     $07a0
         STX     $dba0
 
-
-
-; row above
-
         STA     $077c
         STX     $db7c
 
@@ -582,7 +578,7 @@ CLEAR   JSR     $e544
         STA     $0788
         STX     $db88
 
-   ; left side ?
+   ; left side outline
 
         STA     $074e
         STX     $db4e
@@ -687,9 +683,7 @@ CLEAR   JSR     $e544
         STA     $040c
         STX     $d80c
 
-
-
-   ; right side ?
+   ; right side outline
 
         STA     $07b4
         STX     $dbb4
@@ -800,9 +794,7 @@ CLEAR   JSR     $e544
         STA     $0419
         STX     $d819
 
-
-   ; face and cape
-   ; bottom row of such
+   ; face and cape outline
 
         STA     $0690
         STX     $da90
@@ -1004,7 +996,7 @@ CLEAR   JSR     $e544
         STA     $0787
         STX     $db87
 
-; row above
+; 2nd row grey
 
         STA     $0755
         STX     $db55
@@ -1121,7 +1113,7 @@ CLEAR   JSR     $e544
         STA     $06ea
         STX     $daea
 
-;6th row grey
+; 6th row grey
 
         STA     $06b3
         STX     $dab3
@@ -1183,8 +1175,7 @@ CLEAR   JSR     $e544
         STA     $066f
         STX     $da6f
 
-
-; facey face face
+; bare face
 
         LDX     #10
         LDA     #83
